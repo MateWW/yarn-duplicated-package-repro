@@ -1,0 +1,12 @@
+{
+  "name": "packageC",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "packageB": "../packageB/packageB-v1.0.0.tgz"
+  },
+  "peerDependencies": {
+    "packageB": "*"
+  }
+}
